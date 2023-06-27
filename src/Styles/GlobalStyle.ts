@@ -6,6 +6,7 @@ const globalStyles = globalCss({
     padding: "0",
     boxSizing: "border-box",
     fontFamily: "PT Sans, sans-serif",
+
   },
 });
 

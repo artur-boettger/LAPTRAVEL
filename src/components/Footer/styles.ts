@@ -1,4 +1,4 @@
-import { styled } from "@stitches/react";
+import { styled } from "../../Styles/styles"
 
 export const Container = styled("div", {
   backgroundColor: "#242424",
@@ -50,10 +50,14 @@ export const Input = styled("input", {
 });
 
 export const FooterLinks = styled("div", {
-  width: "100%",
-  maxWidth: "1000px",
+  // width: "100%",
+  // maxWidth: "100%",
   display: "flex",
   justifyContent: "center",
+  "@md":{
+    flexDirection:"column",
+    alignItems:"center"
+  }
 });
 
 export const FooterLinksWrapper = styled("div", {
@@ -89,6 +93,13 @@ export const FooterH2 = styled("h2", {
 export const SocialMedia = styled("section", {
   maxWidth: "1000px",
   width: "100%",
+  margin:"auto",
+    alignItems:"center",
+  "@md":{
+    display:"flex",
+    justifyContent:"center",
+    alignItems:"center",
+  }
 });
 
 export const SocialMediaWrap = styled("div", {

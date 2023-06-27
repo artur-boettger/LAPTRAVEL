@@ -43,6 +43,7 @@ export const HeroP = styled("p", {
 
   "@media screen and (max-width: 768px)": {
     fontSize: "38px",
+    textAlign:"center"
   },
 });
 

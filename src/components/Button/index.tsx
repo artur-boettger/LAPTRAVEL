@@ -12,7 +12,7 @@ interface PropsButton {
 
 export const Button = (props: PropsButton) => {
   return (
-    <Link to="/sign-up" className="btn-mobile">
+    <a href="https://www.instagram.com/turismonosul/" className="btn-mobile" target="_blank">
       <ButtonTag
         onClick={props.onClick}
         type={props.type}
@@ -21,6 +21,6 @@ export const Button = (props: PropsButton) => {
       >
         {props.children}
       </ButtonTag>
-    </Link>
+    </a>
   );
 };
